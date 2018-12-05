@@ -48,7 +48,7 @@ int main()
 			ALL_PATHS(m, N, COST, A, B);
 			output(m,N, COST, A, B); 
 			break; }
-		case 2:addd(N, COST); break;
+		case 2:N=addd(N, COST); break;
 		case 3:addb(COST); break;
 		case 4:deleted(N, COST); break;
 		case 5:deleteb(COST); break;

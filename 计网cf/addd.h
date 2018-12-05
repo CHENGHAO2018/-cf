@@ -1,7 +1,7 @@
 # include "head.h"
 
 
-void addd(int N, int **COST) {
+int addd(int N, int **COST) {
 	int c;
 	N = N + 1;
 	for (c = 1; c == 1;) {
@@ -10,4 +10,5 @@ void addd(int N, int **COST) {
 		cin >> c;
 		if (c == 1)addb(COST);
 	}
+	return N;
 }
