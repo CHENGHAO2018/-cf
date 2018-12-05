@@ -9,6 +9,7 @@
 
 int main()
 {
+	cout << "aaa";
 	int N = 9;
 	int **COST = NULL;
 	COST = new int *[20];
