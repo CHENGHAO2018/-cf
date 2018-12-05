@@ -2,7 +2,7 @@
 
 void ALL_PATHS(int m, int N, int **COST, int **A, int **B)
 {
-	cout << "¸¶Ë«½Ü";
+	
 	int i, j, k;
 	for (i = 1; i <= N; i++)
 		for (j = 1; j <= N; j++)

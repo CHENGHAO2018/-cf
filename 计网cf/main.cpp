@@ -53,6 +53,7 @@ int main()
 		case 4:deleted(N, COST); break;
 		case 5:deleteb(COST); break;
 		default:cout << "输入无效，请重新输入！"; break;
+	    cout << "付双杰";
 		}
 	}
 	return 0;
